@@ -55,6 +55,7 @@ function resetvalues(){
         p.display.classList.remove("has-text-danger","has-text-success");
         result.innerText="";
         p.button.disabled = false;
+        result.classList.add("is-hidden")
     }
 }
 
